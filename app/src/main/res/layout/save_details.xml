@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:id="@+id/sve_address_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/black"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suburb"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:id="@+id/sve_suburb_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/black"
+        android:layout_marginBottom="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:id="@+id/sve_state_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Postcode"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:id="@+id/sve_postcode_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="10sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textColor="#808080"
+        />
+
+    <EditText
+        android:id="@+id/sve_price_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="@android:color/black"
+        android:textSize="16sp"
+        android:inputType="number"
+        android:layout_marginBottom="10sp"
+        />
+
+    <Button
+        android:id="@+id/sve_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20sp"
+        android:text="Save"
+        android:onClick="onAddButtonClick" />
+
+</LinearLayout>
